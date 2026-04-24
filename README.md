@@ -2,7 +2,7 @@
 
 A production-ready backend with JWT authentication, role-based access control, full CRUD, Swagger docs, and a React frontend.
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 | Layer      | Technology                        |
 |------------|-----------------------------------|
@@ -15,7 +15,7 @@ A production-ready backend with JWT authentication, role-based access control, f
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. Backend
 
@@ -42,7 +42,7 @@ Frontend runs at: `http://localhost:3000`
 
 ---
 
-## 📡 API Reference (v1)
+##  API Reference (v1)
 
 ### Auth Endpoints
 | Method | Route                  | Description          | Auth |
@@ -69,7 +69,7 @@ Frontend runs at: `http://localhost:3000`
 
 ---
 
-## 🔐 Security Practices
+##  Security Practices
 
 - Passwords hashed with **bcryptjs** (12 salt rounds)
 - **JWT tokens** with configurable expiry (default: 7 days)
@@ -81,7 +81,7 @@ Frontend runs at: `http://localhost:3000`
 
 ---
 
-## 🗄 Database Schema
+##  Database Schema
 
 ### User
 ```
@@ -106,7 +106,7 @@ updatedAt   Date     auto
 
 ---
 
-## 📈 Scalability Note
+##  Scalability Note
 
 ### Current Design
 - **MVC architecture** with clean separation of concerns
@@ -122,7 +122,7 @@ updatedAt   Date     auto
 
 ---
 
-## 🌍 Environment Variables
+##  Environment Variables
 
 ```env
 PORT=5000
