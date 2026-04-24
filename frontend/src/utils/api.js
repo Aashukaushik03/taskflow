@@ -1,4 +1,4 @@
-const API_BASE = 'http://localhost:5000/api/v1';
+const API_BASE = 'https://taskflow-production-4154.up.railway.app/api/v1';
 
 const getToken = () => localStorage.getItem('token');
 
